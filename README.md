@@ -34,13 +34,12 @@ Using CUDA and Gpu Computation to do batch processing and apply different Image 
 # Setup 
 1.  Adjust GPU Architecture
    Edit the makefile and set the correct flag for you gpu
-2. Add a ouput directory/folder in the project directory named ouput_images
 
 # Building
 Linux (Arch/Ubuntu):
- make or nvcc -std=c++11 -O3 -arch=sm_75 main.cu -o image_filter
+ make or nvcc -std=c++11 -O3 -arch=sm_86 main.cu -o image_filter
 Windows (Developer Command Prompt):
- nvcc -std=c++11 -O3 -arch=sm_75 main.cu -o image_filter.exe
+ nvcc -std=c++11 -O3 -arch=sm_86 main.cu -o image_filter.exe
 
 # Usage 
 * Linux - ./image_filter <input_directory> <output_directory>
