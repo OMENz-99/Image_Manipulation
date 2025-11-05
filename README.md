@@ -34,6 +34,7 @@ Using CUDA and Gpu Computation to do batch processing and apply different Image 
 # Setup 
 1.  Adjust GPU Architecture
    Edit the makefile and set the correct flag for you gpu
+2. Add a ouput directory/folder in the project directory named ouput_images
 
 # Building
 Linux (Arch/Ubuntu):
