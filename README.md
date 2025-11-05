@@ -42,6 +42,7 @@ Windows (Developer Command Prompt):
  nvcc -std=c++11 -O3 -arch=sm_86 main.cu -o image_filter.exe
 
 # Usage 
+* By default there are some test images, which can be deleted in the input filter. Any images which need filters need to be placed inside the input_images folder
 * Linux - ./image_filter <input_directory> <output_directory>
 * Windows - image_filter.exe input_images output_images
 
@@ -51,3 +52,4 @@ Licensed under the MIT License.
 # Acknowledgements 
 - STB libraries by Sean Barrett
 - NVIDIA CUDA Toolkit and documentation
+- Few functions and somde debugging was done using Claude.
